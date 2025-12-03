@@ -23,6 +23,7 @@ namespace BlogLinq
         public MainWindow()
         {
             InitializeComponent();
+            StartWindow.Navigate(new BloggerRegister());
         }
     }
 }
