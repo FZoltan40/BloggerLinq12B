@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BlogLinq.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,22 @@ namespace BlogLinq
         public BloggerRegister()
         {
             InitializeComponent();
+        }
+
+        private void regButton_Click(object sender, RoutedEventArgs e)
+        {
+            var blogger = new Blogger
+            {
+                name = userNameText.Text,
+                password = paswordBox1.Password,
+                email = emailText.Text
+            };
+
+            using (var context = new BlogDbContext())
+            {
+                context.bloggers.Add(blogger);
+                context.SaveChanges();
+            }
         }
     }
 }

@@ -85,3 +85,6 @@ C:\Users\farkasz\C#Projects\BlogLinq\BlogLinq\obj\Debug\BlogLinq.csproj.CoreComp
 C:\Users\farkasz\C#Projects\BlogLinq\BlogLinq\obj\Debug\BlogLinq.csproj.Up2Date
 C:\Users\farkasz\C#Projects\BlogLinq\BlogLinq\obj\Debug\BlogLinq.exe
 C:\Users\farkasz\C#Projects\BlogLinq\BlogLinq\obj\Debug\BlogLinq.pdb
+C:\Users\farkasz\C#Projects\BlogLinq\BlogLinq\obj\Debug\BloggerList.g.cs
+C:\Users\farkasz\C#Projects\BlogLinq\BlogLinq\obj\Debug\BloggerList.baml
+C:\Users\farkasz\C#Projects\BlogLinq\BlogLinq\obj\Debug\BlogLinq.exe.config

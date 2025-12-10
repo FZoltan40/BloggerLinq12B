@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BlogLinq.Models
 {
-    internal class Blogger
+    public class Blogger
     {
         public int id { get; set; }
         public string name { get; set; }
